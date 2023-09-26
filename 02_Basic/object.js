@@ -12,15 +12,17 @@
 //     age: 21,
 //     location: "bbsr",
 //     // mySym : "mykey1"  
-//     [mySym]: "mykey1", // for using like symbol
+//     [mySym]: "mykey1", // for using like symbol  []
 // }
 
-//for restrict changes ----------------------------
+//for restrict changes / no one can change the object value----------------------------
 // Object.freeze(jsUser);
 
 
 // access object
 // console.log(jsUser.name);
+             // you can not access symbol with symbol data type we can not access by dot operator you cannot access the key values when the key is as string and with space like       "first name": "Bhuban" (means 2 words of string in one "" with space ) for that we use bracket method
+
 // console.log(jsUser["name"]);
 // console.log(jsUser["age"]);
 
@@ -35,7 +37,7 @@
 // jsUser.greeting = function(){
 //     console.log("hello");
 // }
-// console.log(jsUser.greeting);
+// console.log(jsUser.greeting);  
 // console.log(jsUser.greeting());
 
 // jsUser.greeting2 = function(){
