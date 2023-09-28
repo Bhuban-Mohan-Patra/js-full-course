@@ -70,8 +70,27 @@
 // }
 // chai();
 
-function chai() {
-    let username = 'bhuban'
-    console.log(this);
-}
-chai();
+// function chai() {
+//     let username = 'bhuban'
+//     console.log(this);
+// }
+// chai();
+
+
+
+// ======================================  IIFE  ==============================================
+// (immidately invoked function execute)   it use to resolve the problem of global scope pluttion
+//  it execute immidiately after declaration
+
+(function hello(){
+    console.log("hii");
+})();                         // here semicolon is very important because it does not know where to stop the context 
+
+( ()=>{
+    console.log("hii");
+})(); 
+
+// (this is for function definition)(this is for function call)
+
+
+
