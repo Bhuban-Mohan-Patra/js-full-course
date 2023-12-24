@@ -69,6 +69,10 @@ myArr3[2]= "hii"
 // console.log(myArr.findIndex((value)=>{ value == 1}))
 
 
+//generate array from 1 to n
+// const arr = Array.from({ length: n }, (_, index) => index + 1);
+
+
 // merging 2 array ====================================
 // const newArr = myArr.join();
 // console.log(myArr);
