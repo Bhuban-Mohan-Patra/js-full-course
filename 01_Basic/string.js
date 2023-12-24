@@ -8,6 +8,8 @@ const yourName = new String('Bhuban');
 
 //yourName.at(index)               return letter of that index   index can be -ve
 // yourName.endsWith("string", index)              index is last index-1 if no index then check till last
+
+// includes        
 // yourname.includes(word) ? 'is' : 'is not'         check for the word is present or not in the sentence 
 
 
@@ -19,6 +21,9 @@ const yourName = new String('Bhuban');
 
 // reverse a string
 // str = str.split('').reverse().join('');
+
+//sort in string
+// str = str.split('').sort().join('');
 
 //   //substring
 // const newName = yourName.substring(1,3); // extact text from one string and returns a new string exculding end index
