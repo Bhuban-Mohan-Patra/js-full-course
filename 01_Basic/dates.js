@@ -1,4 +1,14 @@
 let myDate = new Date();
+console.lpg(myDate);
+console.log(myDate.getFullYear());
+console.log(myDate.getMonth());            // o-11
+console.log(myDate.getDate());
+console.log(myDate.getHours());
+console.log(myDate.getMinutes());
+console.log(myDate.getSeconds());
+console.log(myDate.getDay());                   //0-6  sunday = 0
+
+
 // console.log(typeof myDate);  //object
 // console.log(myDate);
 // console.log(myDate.toString());
