@@ -17,6 +17,8 @@ const yourName = new String('Bhuban');
 // console.log(yourName.indexOf('a'));
 // console.log(yourName.indexOf('an'));
 
+// reverse a string
+// str = str.split('').reverse().join('');
 
 //   //substring
 // const newName = yourName.substring(1,3); // extact text from one string and returns a new string exculding end index
