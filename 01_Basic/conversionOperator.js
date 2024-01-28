@@ -15,7 +15,7 @@
 
 // let s2= "33avd";
 // let n2 = Number(s2);
-// console.log(n2); // NaN
+// console.log(n2); // NaN  but conversion posiible string to number on this value
 // console.log(typeof s2); //string
 // console.log(typeof n2);  //number
 
