@@ -19,3 +19,12 @@
 
 // console.log(typeof undefined); // undefined
 
+
+Stack and Heap
+stack: primitive datatype
+Heap: non Primitive datatype
+
+
+in stack it give the copy 
+but in heap it give the reference
+
