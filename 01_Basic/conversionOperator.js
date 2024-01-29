@@ -22,7 +22,7 @@
 //  //from null
 // let nu = null;
 // let n3 = Number(nu);
-// console.log(n3); // some time 0 and some time NaN
+// console.log(n3); // some time 0 (maximum)  and some time NaN
 // console.log(typeof nu); // object
 // console.log(typeof n3); // number
 
@@ -62,9 +62,9 @@
 // console.table([bo1, bo2, bo3, bo4, bo5]);
 
 // //from string
-// let st1 = "hii"; //false
+// let st1 = "hii"; //true
 // let boo1 = Boolean(st1)
-// let st2 = ""; //false
+// let st2 = ""; //false    but if we put an space then it will be true
 // let boo2 = Boolean(st2)
 // console.table([boo1,boo2])
 
@@ -76,7 +76,7 @@
 // console.table([bul1, bul2]);
 
 
-//// conbersion to string ============================
+//// conversion to string ============================
 
 // let nul = null;  'null'
 // let str1 = String(nul);
