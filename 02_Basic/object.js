@@ -110,6 +110,18 @@ const {courseName : cName} = course;
 console.log(cName);
 
 
+
+// Object destructuring 
+const user = {
+name: "Anubhab",
+age: 21
+};
+
+const {name : na} user;
+console.log(na);
+
+
+
 // Api ===================================================
 
 // json  = object with no name and keys are also in string
